@@ -10,5 +10,11 @@ public class Principal {
                 "El color de ojos es:"+obj1.colorOjos+"Tiene :"+obj1.numPiernas+"Piernas"+"Tiene :"+
                 obj1.numBrazos+"Brazossss");
 
+        Personas obj2 = new Personas("Guy-Manuel de Homem-Christo",(byte) 56,(byte)2,(byte)2,"Azul");
+        System.out.println("El nombre que tiene objeto 2 es:" + obj2.nombre+ "La edad es :"+obj2.edad+
+                "El color de ojos es:"+obj2.colorOjos+"Tiene :"+obj2.numPiernas+"Piernas"+"Tiene :"+
+                obj2.numBrazos+"Brazossss");
+        System.out.println("El saludo de los Dafts es"+obj1.Saludar());
+        System.out.println("El saludo de los dafts 2 es"+obj2.Saludar());
     }
 }

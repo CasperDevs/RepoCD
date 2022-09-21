@@ -17,4 +17,15 @@ public class Personas {
         this.colorOjos = "Verde";
 
     }
+    public Personas(String nombre,byte edad,byte numPiernas,byte numBrazos,String colorOjos){
+        this.nombre = nombre;
+        this.numBrazos = numBrazos;
+        this.numPiernas = numPiernas;
+        this.colorOjos = colorOjos;
+    }
+
+    public String Saludar(){
+        return "Hello my name is Daft"+this.nombre;
+    }
+
 }
