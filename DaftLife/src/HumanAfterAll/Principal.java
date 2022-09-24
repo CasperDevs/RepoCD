@@ -16,5 +16,7 @@ public class Principal {
                 obj2.numBrazos+"Brazossss");
         System.out.println("El saludo de los Dafts es"+obj1.Saludar());
         System.out.println("El saludo de los dafts 2 es"+obj2.Saludar());
+        obj2.CambiarNombre("Jhon Estebia Rmz");
+        System.out.println("El saludo del obj 2, despues de cambiar nombre es: "+obj2.Saludar());
     }
 }

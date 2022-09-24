@@ -28,4 +28,8 @@ public class Personas {
         return "Hello my name is Daft"+this.nombre;
     }
 
+    public void CambiarNombre(String nombre){
+        this.nombre = nombre;
+    }
+
 }
